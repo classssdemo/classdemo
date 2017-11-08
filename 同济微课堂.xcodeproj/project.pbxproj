@@ -1,0 +1,689 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		041376B81F4FF3E6008874EA /* SliderGalleryController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 041376B71F4FF3E6008874EA /* SliderGalleryController.swift */; };
+		04BF88091F4EAFDF00EA75DD /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04BF88081F4EAFDF00EA75DD /* AppDelegate.swift */; };
+		04BF880B1F4EAFDF00EA75DD /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04BF880A1F4EAFDF00EA75DD /* ViewController.swift */; };
+		04BF880E1F4EAFDF00EA75DD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 04BF880C1F4EAFDF00EA75DD /* Main.storyboard */; };
+		04BF88101F4EAFDF00EA75DD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 04BF880F1F4EAFDF00EA75DD /* Assets.xcassets */; };
+		04BF88131F4EAFDF00EA75DD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 04BF88111F4EAFDF00EA75DD /* LaunchScreen.storyboard */; };
+		04BF881E1F4EAFDF00EA75DD /* _____Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04BF881D1F4EAFDF00EA75DD /* _____Tests.swift */; };
+		04BF88291F4EAFDF00EA75DD /* _____UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04BF88281F4EAFDF00EA75DD /* _____UITests.swift */; };
+		04BF883E1F4F033E00EA75DD /* homeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04BF883D1F4F033E00EA75DD /* homeViewController.swift */; };
+		04BF88401F4F195F00EA75DD /* listViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04BF883F1F4F195F00EA75DD /* listViewController.swift */; };
+		04D2C8111FB1FA8D0029A9EB /* background.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 04D2C8101FB1FA8D0029A9EB /* background.jpg */; };
+		04D2C8131FB1FB310029A9EB /* loginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04D2C8121FB1FB310029A9EB /* loginViewController.swift */; };
+		04D2C8141FB1FBDF0029A9EB /* Alamofire.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 04D2C8161FB1FBDF0029A9EB /* Alamofire.framework */; };
+		04D2C8151FB1FBDF0029A9EB /* SkyFloatingLabelTextField.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 04D2C8171FB1FBDF0029A9EB /* SkyFloatingLabelTextField.framework */; };
+		04D2C8191FB204420029A9EB /* tongji_logo.png in Resources */ = {isa = PBXBuildFile; fileRef = 04D2C8181FB204410029A9EB /* tongji_logo.png */; };
+		8587F999ADC6BCDC6920C0B9 /* Pods______.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 453E2B1F1BF74F6C2ADD7387 /* Pods______.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		04BF881A1F4EAFDF00EA75DD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 04BF87FD1F4EAFDF00EA75DD /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 04BF88041F4EAFDF00EA75DD;
+			remoteInfo = "同济微课堂";
+		};
+		04BF88251F4EAFDF00EA75DD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 04BF87FD1F4EAFDF00EA75DD /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 04BF88041F4EAFDF00EA75DD;
+			remoteInfo = "同济微课堂";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		041376B71F4FF3E6008874EA /* SliderGalleryController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SliderGalleryController.swift; sourceTree = "<group>"; };
+		0442D01D1F5052BF0071BF38 /* wild_plants_1-wallpaper-1440x900.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "wild_plants_1-wallpaper-1440x900.jpg"; sourceTree = "<group>"; };
+		04BF88051F4EAFDF00EA75DD /* 同济微课堂.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "同济微课堂.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		04BF88081F4EAFDF00EA75DD /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		04BF880A1F4EAFDF00EA75DD /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		04BF880D1F4EAFDF00EA75DD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		04BF880F1F4EAFDF00EA75DD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		04BF88121F4EAFDF00EA75DD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		04BF88141F4EAFDF00EA75DD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		04BF88191F4EAFDF00EA75DD /* 同济微课堂Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "同济微课堂Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		04BF881D1F4EAFDF00EA75DD /* _____Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "_____Tests.swift"; sourceTree = "<group>"; };
+		04BF881F1F4EAFDF00EA75DD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		04BF88241F4EAFDF00EA75DD /* 同济微课堂UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "同济微课堂UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		04BF88281F4EAFDF00EA75DD /* _____UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "_____UITests.swift"; sourceTree = "<group>"; };
+		04BF882A1F4EAFDF00EA75DD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		04BF88371F4EAFF900EA75DD /* 列表.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "列表.png"; sourceTree = "<group>"; };
+		04BF88391F4EAFF900EA75DD /* 我的.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "我的.png"; sourceTree = "<group>"; };
+		04BF883B1F4EB01200EA75DD /* home.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = home.png; sourceTree = "<group>"; };
+		04BF883D1F4F033E00EA75DD /* homeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = homeViewController.swift; sourceTree = "<group>"; };
+		04BF883F1F4F195F00EA75DD /* listViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = listViewController.swift; sourceTree = "<group>"; };
+		04D2C8101FB1FA8D0029A9EB /* background.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = background.jpg; sourceTree = "<group>"; };
+		04D2C8121FB1FB310029A9EB /* loginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = loginViewController.swift; sourceTree = "<group>"; };
+		04D2C8161FB1FBDF0029A9EB /* Alamofire.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = Alamofire.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		04D2C8171FB1FBDF0029A9EB /* SkyFloatingLabelTextField.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = SkyFloatingLabelTextField.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		04D2C8181FB204410029A9EB /* tongji_logo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = tongji_logo.png; sourceTree = "<group>"; };
+		453E2B1F1BF74F6C2ADD7387 /* Pods______.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = "Pods______.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		828572DDD0B0F12353B3F08D /* Pods-同济微课堂.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-同济微课堂.debug.xcconfig"; path = "Pods/Target Support Files/Pods-同济微课堂/Pods-同济微课堂.debug.xcconfig"; sourceTree = "<group>"; };
+		FCC4944B5AF498ABA3C50A77 /* Pods-同济微课堂.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-同济微课堂.release.xcconfig"; path = "Pods/Target Support Files/Pods-同济微课堂/Pods-同济微课堂.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		04BF88021F4EAFDF00EA75DD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				04D2C8141FB1FBDF0029A9EB /* Alamofire.framework in Frameworks */,
+				04D2C8151FB1FBDF0029A9EB /* SkyFloatingLabelTextField.framework in Frameworks */,
+				8587F999ADC6BCDC6920C0B9 /* Pods______.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		04BF88161F4EAFDF00EA75DD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		04BF88211F4EAFDF00EA75DD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		04BF87FC1F4EAFDF00EA75DD = {
+			isa = PBXGroup;
+			children = (
+				04BF88071F4EAFDF00EA75DD /* 同济微课堂 */,
+				04BF881C1F4EAFDF00EA75DD /* 同济微课堂Tests */,
+				04BF88271F4EAFDF00EA75DD /* 同济微课堂UITests */,
+				04BF88061F4EAFDF00EA75DD /* Products */,
+				F3C0F5BADDA4725937D8F599 /* Pods */,
+				F3D4B8953C940DB9474AFC49 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		04BF88061F4EAFDF00EA75DD /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				04BF88051F4EAFDF00EA75DD /* 同济微课堂.app */,
+				04BF88191F4EAFDF00EA75DD /* 同济微课堂Tests.xctest */,
+				04BF88241F4EAFDF00EA75DD /* 同济微课堂UITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		04BF88071F4EAFDF00EA75DD /* 同济微课堂 */ = {
+			isa = PBXGroup;
+			children = (
+				04BF88081F4EAFDF00EA75DD /* AppDelegate.swift */,
+				04BF880A1F4EAFDF00EA75DD /* ViewController.swift */,
+				04BF883F1F4F195F00EA75DD /* listViewController.swift */,
+				04BF883D1F4F033E00EA75DD /* homeViewController.swift */,
+				041376B71F4FF3E6008874EA /* SliderGalleryController.swift */,
+				04BF880C1F4EAFDF00EA75DD /* Main.storyboard */,
+				04BF880F1F4EAFDF00EA75DD /* Assets.xcassets */,
+				04BF88111F4EAFDF00EA75DD /* LaunchScreen.storyboard */,
+				04BF883C1F4EB01900EA75DD /* resources */,
+				04BF88141F4EAFDF00EA75DD /* Info.plist */,
+				04D2C8121FB1FB310029A9EB /* loginViewController.swift */,
+			);
+			path = "同济微课堂";
+			sourceTree = "<group>";
+		};
+		04BF881C1F4EAFDF00EA75DD /* 同济微课堂Tests */ = {
+			isa = PBXGroup;
+			children = (
+				04BF881D1F4EAFDF00EA75DD /* _____Tests.swift */,
+				04BF881F1F4EAFDF00EA75DD /* Info.plist */,
+			);
+			path = "同济微课堂Tests";
+			sourceTree = "<group>";
+		};
+		04BF88271F4EAFDF00EA75DD /* 同济微课堂UITests */ = {
+			isa = PBXGroup;
+			children = (
+				04BF88281F4EAFDF00EA75DD /* _____UITests.swift */,
+				04BF882A1F4EAFDF00EA75DD /* Info.plist */,
+			);
+			path = "同济微课堂UITests";
+			sourceTree = "<group>";
+		};
+		04BF883C1F4EB01900EA75DD /* resources */ = {
+			isa = PBXGroup;
+			children = (
+				04D2C8181FB204410029A9EB /* tongji_logo.png */,
+				04D2C8101FB1FA8D0029A9EB /* background.jpg */,
+				0442D01D1F5052BF0071BF38 /* wild_plants_1-wallpaper-1440x900.jpg */,
+				04BF88371F4EAFF900EA75DD /* 列表.png */,
+				04BF88391F4EAFF900EA75DD /* 我的.png */,
+				04BF883B1F4EB01200EA75DD /* home.png */,
+			);
+			path = resources;
+			sourceTree = "<group>";
+		};
+		F3C0F5BADDA4725937D8F599 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				828572DDD0B0F12353B3F08D /* Pods-同济微课堂.debug.xcconfig */,
+				FCC4944B5AF498ABA3C50A77 /* Pods-同济微课堂.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		F3D4B8953C940DB9474AFC49 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				04D2C8161FB1FBDF0029A9EB /* Alamofire.framework */,
+				04D2C8171FB1FBDF0029A9EB /* SkyFloatingLabelTextField.framework */,
+				453E2B1F1BF74F6C2ADD7387 /* Pods______.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		04BF88041F4EAFDF00EA75DD /* 同济微课堂 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 04BF882D1F4EAFDF00EA75DD /* Build configuration list for PBXNativeTarget "同济微课堂" */;
+			buildPhases = (
+				6E59BAC1C3BDB1BECE25C895 /* [CP] Check Pods Manifest.lock */,
+				04BF88011F4EAFDF00EA75DD /* Sources */,
+				04BF88021F4EAFDF00EA75DD /* Frameworks */,
+				04BF88031F4EAFDF00EA75DD /* Resources */,
+				8EC11FC491C38F790363F01D /* [CP] Embed Pods Frameworks */,
+				721CB97C5F4CF51FCFC9F3FC /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "同济微课堂";
+			productName = "同济微课堂";
+			productReference = 04BF88051F4EAFDF00EA75DD /* 同济微课堂.app */;
+			productType = "com.apple.product-type.application";
+		};
+		04BF88181F4EAFDF00EA75DD /* 同济微课堂Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 04BF88301F4EAFDF00EA75DD /* Build configuration list for PBXNativeTarget "同济微课堂Tests" */;
+			buildPhases = (
+				04BF88151F4EAFDF00EA75DD /* Sources */,
+				04BF88161F4EAFDF00EA75DD /* Frameworks */,
+				04BF88171F4EAFDF00EA75DD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				04BF881B1F4EAFDF00EA75DD /* PBXTargetDependency */,
+			);
+			name = "同济微课堂Tests";
+			productName = "同济微课堂Tests";
+			productReference = 04BF88191F4EAFDF00EA75DD /* 同济微课堂Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		04BF88231F4EAFDF00EA75DD /* 同济微课堂UITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 04BF88331F4EAFDF00EA75DD /* Build configuration list for PBXNativeTarget "同济微课堂UITests" */;
+			buildPhases = (
+				04BF88201F4EAFDF00EA75DD /* Sources */,
+				04BF88211F4EAFDF00EA75DD /* Frameworks */,
+				04BF88221F4EAFDF00EA75DD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				04BF88261F4EAFDF00EA75DD /* PBXTargetDependency */,
+			);
+			name = "同济微课堂UITests";
+			productName = "同济微课堂UITests";
+			productReference = 04BF88241F4EAFDF00EA75DD /* 同济微课堂UITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		04BF87FD1F4EAFDF00EA75DD /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0900;
+				LastUpgradeCheck = 0900;
+				ORGANIZATIONNAME = mac;
+				TargetAttributes = {
+					04BF88041F4EAFDF00EA75DD = {
+						CreatedOnToolsVersion = 9.0;
+					};
+					04BF88181F4EAFDF00EA75DD = {
+						CreatedOnToolsVersion = 9.0;
+						TestTargetID = 04BF88041F4EAFDF00EA75DD;
+					};
+					04BF88231F4EAFDF00EA75DD = {
+						CreatedOnToolsVersion = 9.0;
+						TestTargetID = 04BF88041F4EAFDF00EA75DD;
+					};
+				};
+			};
+			buildConfigurationList = 04BF88001F4EAFDF00EA75DD /* Build configuration list for PBXProject "同济微课堂" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 04BF87FC1F4EAFDF00EA75DD;
+			productRefGroup = 04BF88061F4EAFDF00EA75DD /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				04BF88041F4EAFDF00EA75DD /* 同济微课堂 */,
+				04BF88181F4EAFDF00EA75DD /* 同济微课堂Tests */,
+				04BF88231F4EAFDF00EA75DD /* 同济微课堂UITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		04BF88031F4EAFDF00EA75DD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				04BF88131F4EAFDF00EA75DD /* LaunchScreen.storyboard in Resources */,
+				04D2C8191FB204420029A9EB /* tongji_logo.png in Resources */,
+				04D2C8111FB1FA8D0029A9EB /* background.jpg in Resources */,
+				04BF88101F4EAFDF00EA75DD /* Assets.xcassets in Resources */,
+				04BF880E1F4EAFDF00EA75DD /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		04BF88171F4EAFDF00EA75DD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		04BF88221F4EAFDF00EA75DD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		6E59BAC1C3BDB1BECE25C895 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-同济微课堂-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		721CB97C5F4CF51FCFC9F3FC /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-同济微课堂/Pods-同济微课堂-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8EC11FC491C38F790363F01D /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-同济微课堂/Pods-同济微课堂-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
+				"${BUILT_PRODUCTS_DIR}/SkyFloatingLabelTextField/SkyFloatingLabelTextField.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SkyFloatingLabelTextField.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-同济微课堂/Pods-同济微课堂-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		04BF88011F4EAFDF00EA75DD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				04BF880B1F4EAFDF00EA75DD /* ViewController.swift in Sources */,
+				04BF883E1F4F033E00EA75DD /* homeViewController.swift in Sources */,
+				04D2C8131FB1FB310029A9EB /* loginViewController.swift in Sources */,
+				041376B81F4FF3E6008874EA /* SliderGalleryController.swift in Sources */,
+				04BF88401F4F195F00EA75DD /* listViewController.swift in Sources */,
+				04BF88091F4EAFDF00EA75DD /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		04BF88151F4EAFDF00EA75DD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				04BF881E1F4EAFDF00EA75DD /* _____Tests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		04BF88201F4EAFDF00EA75DD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				04BF88291F4EAFDF00EA75DD /* _____UITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		04BF881B1F4EAFDF00EA75DD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 04BF88041F4EAFDF00EA75DD /* 同济微课堂 */;
+			targetProxy = 04BF881A1F4EAFDF00EA75DD /* PBXContainerItemProxy */;
+		};
+		04BF88261F4EAFDF00EA75DD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 04BF88041F4EAFDF00EA75DD /* 同济微课堂 */;
+			targetProxy = 04BF88251F4EAFDF00EA75DD /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		04BF880C1F4EAFDF00EA75DD /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				04BF880D1F4EAFDF00EA75DD /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		04BF88111F4EAFDF00EA75DD /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				04BF88121F4EAFDF00EA75DD /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		04BF882B1F4EAFDF00EA75DD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		04BF882C1F4EAFDF00EA75DD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		04BF882E1F4EAFDF00EA75DD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 828572DDD0B0F12353B3F08D /* Pods-同济微课堂.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = SAMHPY9QLS;
+				INFOPLIST_FILE = "同济微课堂/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "cocoa.-----";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		04BF882F1F4EAFDF00EA75DD /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = FCC4944B5AF498ABA3C50A77 /* Pods-同济微课堂.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = SAMHPY9QLS;
+				INFOPLIST_FILE = "同济微课堂/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "cocoa.-----";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+		04BF88311F4EAFDF00EA75DD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = SAMHPY9QLS;
+				INFOPLIST_FILE = "同济微课堂Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "cocoa.-----Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/同济微课堂.app/同济微课堂";
+			};
+			name = Debug;
+		};
+		04BF88321F4EAFDF00EA75DD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = SAMHPY9QLS;
+				INFOPLIST_FILE = "同济微课堂Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "cocoa.-----Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/同济微课堂.app/同济微课堂";
+			};
+			name = Release;
+		};
+		04BF88341F4EAFDF00EA75DD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = SAMHPY9QLS;
+				INFOPLIST_FILE = "同济微课堂UITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "cocoa.-----UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "同济微课堂";
+			};
+			name = Debug;
+		};
+		04BF88351F4EAFDF00EA75DD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = SAMHPY9QLS;
+				INFOPLIST_FILE = "同济微课堂UITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "cocoa.-----UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "同济微课堂";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		04BF88001F4EAFDF00EA75DD /* Build configuration list for PBXProject "同济微课堂" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				04BF882B1F4EAFDF00EA75DD /* Debug */,
+				04BF882C1F4EAFDF00EA75DD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		04BF882D1F4EAFDF00EA75DD /* Build configuration list for PBXNativeTarget "同济微课堂" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				04BF882E1F4EAFDF00EA75DD /* Debug */,
+				04BF882F1F4EAFDF00EA75DD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		04BF88301F4EAFDF00EA75DD /* Build configuration list for PBXNativeTarget "同济微课堂Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				04BF88311F4EAFDF00EA75DD /* Debug */,
+				04BF88321F4EAFDF00EA75DD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		04BF88331F4EAFDF00EA75DD /* Build configuration list for PBXNativeTarget "同济微课堂UITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				04BF88341F4EAFDF00EA75DD /* Debug */,
+				04BF88351F4EAFDF00EA75DD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 04BF87FD1F4EAFDF00EA75DD /* Project object */;
+}

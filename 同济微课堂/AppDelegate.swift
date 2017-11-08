@@ -14,6 +14,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
     var window: UIWindow?
 
+    static var slideMenuController: SlideMenuController?
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplicationLaunchOptionsKey: Any]?) -> Bool {
         // Override point for customization after application launch.
@@ -21,10 +22,9 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         let rootViewController = UIStoryboard.init(name: "Main", bundle: nil).instantiateViewController(withIdentifier: "root")
         
         let nav = UINavigationController(rootViewController: rootViewController)
-        let sidemenu = UIStoryboard.init(name: "Main", bundle: nil).instantiateViewController(withIdentifier: "sidemenu")
-        let slideMenuController = SlideMenuController(mainViewController: nav, leftMenuViewController: sidemenu)
-        slideMenuController.delegate = rootViewController as? SlideMenuControllerDelegate
-        slideMenuController.automaticallyAdjustsScrollViewInsets = true
+        AppDelegate.slideMenuController = SlideMenuController(mainViewController: nav, leftMenuViewController: sideMenuViewController())
+        AppDelegate.slideMenuController?.delegate = rootViewController as? SlideMenuControllerDelegate
+        AppDelegate.slideMenuController?.automaticallyAdjustsScrollViewInsets = true
         //self.window?.rootViewController = slideMenuController
         
         self.window?.makeKeyAndVisible()

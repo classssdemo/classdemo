@@ -102,21 +102,6 @@
             </objects>
             <point key="canvasLocation" x="124" y="71.514242878560722"/>
         </scene>
-        <!--Side Menu View Controller-->
-        <scene sceneID="rbb-Ao-Y9T">
-            <objects>
-                <viewController storyboardIdentifier="sidemenu" id="pQa-uI-5O1" customClass="sideMenuViewController" customModule="同济微课堂" customModuleProvider="target" sceneMemberID="viewController">
-                    <view key="view" contentMode="scaleToFill" id="Omv-eB-WJE" customClass="Side">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
-                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                        <viewLayoutGuide key="safeArea" id="ipM-3k-Ciq"/>
-                    </view>
-                </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="2VE-5I-r3O" userLabel="First Responder" sceneMemberID="firstResponder"/>
-            </objects>
-            <point key="canvasLocation" x="123" y="804"/>
-        </scene>
         <!--Navigation Controller-->
         <scene sceneID="Sp7-68-SnG">
             <objects>

@@ -144,7 +144,7 @@ class homeViewController: UIViewController, SliderGalleryControllerDelegate, UIT
                 self.coursesImages.append(UIImage(data:data)!)
                 DispatchQueue.main.async {
                     self.imagesCount = self.coursesImages.count
-                    self.table.reloadData()
+                    //self.table.reloadData()
                 }
             } catch let err as NSError {
                 print("err", err)

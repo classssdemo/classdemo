@@ -14,7 +14,7 @@ class homeViewController: UIViewController, SliderGalleryControllerDelegate, UIT
     private var sliderGallery : SliderGalleryController!
     private let kScreenWidth = UIScreen.main.bounds.size.width
     private var table: UITableView!
-    private let url = "http://123.207.13.131:1997/course_images/000001.jpg"
+    private var urls:Array<String> = []
     
     private var coursesImages:Array<UIImage> = []
     private var imagesCount = 0
@@ -24,6 +24,9 @@ class homeViewController: UIViewController, SliderGalleryControllerDelegate, UIT
     override func viewDidLoad() {
         self.view.backgroundColor = UIColor.white
         getCoursesImages()
+        
+        urls.append("http://123.207.13.131:1997/course_images/000001.jpg")
+        urls.append("http://123.207.13.131:1997/course_images/000002.jpg")
     }
     
     override func viewWillAppear(_ animated: Bool) {
@@ -66,7 +69,7 @@ class homeViewController: UIViewController, SliderGalleryControllerDelegate, UIT
     
     //delegate protocal
     func galleryDataSource() -> [String] {
-        return ["test", "test", "test", "test", "test"]
+        return ["test", "eg1.png", "eg2.png", "test", "test"]
     }
     
     func galleryScrollerViewSize() -> CGSize {
@@ -111,15 +114,21 @@ class homeViewController: UIViewController, SliderGalleryControllerDelegate, UIT
         
         //mainTitle
         let mainTitle = UILabel(frame: CGRect(x: 30, y: cellImg.bounds.height, width: (self.kScreenWidth-100), height: self.view.bounds.height*0.1))
-        mainTitle.text = "高等数学"
         mainTitle.textColor = UIColor.darkText
         mainTitle.font = UIFont.systemFont(ofSize: 22, weight: .light)
         
         //subTitle
         let subTitle = UILabel(frame: CGRect(x: 30, y: cellImg.bounds.height + 30, width: (self.kScreenWidth-100), height: self.view.bounds.height*0.1))
-        subTitle.text = "数学科学学院"
         subTitle.font = UIFont.systemFont(ofSize: 18, weight: .thin)
         subTitle.textColor = UIColor.darkGray
+        
+        if indexPath.row==0{
+            mainTitle.text = "高等数学"
+            subTitle.text = "数学科学学院"
+        }else if indexPath.row == 1{
+            mainTitle.text = "普通物理"
+            subTitle.text = "物理学院"
+        }
         
         self.cell.addSubview(cellImg)
         self.cell.addSubview(mainTitle)
@@ -138,18 +147,21 @@ class homeViewController: UIViewController, SliderGalleryControllerDelegate, UIT
         //通过接口获取图片
         let queue = DispatchQueue(label: "fetchImage")
         queue.async {
-            let url = URL(string: "http://123.207.13.131:1997/course_images/000001.jpg")
-            do {
-                let data = try Data(contentsOf: url!)
-                self.coursesImages.append(UIImage(data:data)!)
-                DispatchQueue.main.async {
-                    self.imagesCount = self.coursesImages.count
-                    self.table.reloadData()
+            for i in self.urls{
+                let url = URL(string: i)
+                do {
+                    let data = try Data(contentsOf: url!)
+                    self.coursesImages.append(UIImage(data:data)!)
+                    DispatchQueue.main.async {
+                        self.imagesCount = self.coursesImages.count
+                        self.table.reloadData()
+                    }
+                } catch let err as NSError {
+                    print("err", err)
                 }
-            } catch let err as NSError {
-                print("err", err)
             }
         }
+        
     }
     
     private func get(url: String, completion: ((Data)->Void)? ){

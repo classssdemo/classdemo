@@ -44,10 +44,19 @@ class ViewController: UITabBarController {
         
         self.selectedIndex = 0
         self.viewControllers = [homeView, listView]
-
+        self.view.addGestureRecognizer(UISwipeGestureRecognizer(target: self, action: #selector(openSideMenu)))
+        self.navigationController?.navigationBar.tintColor = UIColor(red: 64/255.0, green: 64/255.0, blue: 64/255.0, alpha: 1)
     }
 
-
+    func initSideMenu() {
+        self.addLeftBarButtonWithImage(UIImage(named: "目录.png")!)
+        self.slideMenuController()?.addLeftGestures()
+        self.slideMenuController()?.closeLeft()
+    }
+    
+    @objc func openSideMenu() {
+        self.slideMenuController()?.openLeft()
+    }
 
 }
 

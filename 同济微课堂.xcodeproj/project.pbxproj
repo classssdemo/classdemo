@@ -22,6 +22,14 @@
 		04D2C8141FB1FBDF0029A9EB /* Alamofire.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 04D2C8161FB1FBDF0029A9EB /* Alamofire.framework */; };
 		04D2C8151FB1FBDF0029A9EB /* SkyFloatingLabelTextField.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 04D2C8171FB1FBDF0029A9EB /* SkyFloatingLabelTextField.framework */; };
 		04D2C8191FB204420029A9EB /* tongji_logo.png in Resources */ = {isa = PBXBuildFile; fileRef = 04D2C8181FB204410029A9EB /* tongji_logo.png */; };
+		18617ECA1FB2DADA005D18BF /* 粉丝.png in Resources */ = {isa = PBXBuildFile; fileRef = 18617EC31FB2DAD8005D18BF /* 粉丝.png */; };
+		18617ECB1FB2DADA005D18BF /* 目录.png in Resources */ = {isa = PBXBuildFile; fileRef = 18617EC41FB2DAD9005D18BF /* 目录.png */; };
+		18617ECC1FB2DADA005D18BF /* 主页.png in Resources */ = {isa = PBXBuildFile; fileRef = 18617EC51FB2DAD9005D18BF /* 主页.png */; };
+		18617ECD1FB2DADA005D18BF /* 头像.png in Resources */ = {isa = PBXBuildFile; fileRef = 18617EC61FB2DAD9005D18BF /* 头像.png */; };
+		18617ECE1FB2DADA005D18BF /* 关注.png in Resources */ = {isa = PBXBuildFile; fileRef = 18617EC71FB2DAD9005D18BF /* 关注.png */; };
+		18617ECF1FB2DADA005D18BF /* 设置.png in Resources */ = {isa = PBXBuildFile; fileRef = 18617EC81FB2DAD9005D18BF /* 设置.png */; };
+		18617ED01FB2DADA005D18BF /* topBG.png in Resources */ = {isa = PBXBuildFile; fileRef = 18617EC91FB2DADA005D18BF /* topBG.png */; };
+		18617ED21FB2DAE6005D18BF /* sideMenuViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18617ED11FB2DAE6005D18BF /* sideMenuViewController.swift */; };
 		8587F999ADC6BCDC6920C0B9 /* Pods______.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 453E2B1F1BF74F6C2ADD7387 /* Pods______.framework */; };
 /* End PBXBuildFile section */
 
@@ -53,10 +61,10 @@
 		04BF88121F4EAFDF00EA75DD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		04BF88141F4EAFDF00EA75DD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		04BF88191F4EAFDF00EA75DD /* 同济微课堂Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "同济微课堂Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
-		04BF881D1F4EAFDF00EA75DD /* _____Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "_____Tests.swift"; sourceTree = "<group>"; };
+		04BF881D1F4EAFDF00EA75DD /* _____Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = _____Tests.swift; sourceTree = "<group>"; };
 		04BF881F1F4EAFDF00EA75DD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		04BF88241F4EAFDF00EA75DD /* 同济微课堂UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "同济微课堂UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
-		04BF88281F4EAFDF00EA75DD /* _____UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "_____UITests.swift"; sourceTree = "<group>"; };
+		04BF88281F4EAFDF00EA75DD /* _____UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = _____UITests.swift; sourceTree = "<group>"; };
 		04BF882A1F4EAFDF00EA75DD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		04BF88371F4EAFF900EA75DD /* 列表.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "列表.png"; sourceTree = "<group>"; };
 		04BF88391F4EAFF900EA75DD /* 我的.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "我的.png"; sourceTree = "<group>"; };
@@ -68,7 +76,15 @@
 		04D2C8161FB1FBDF0029A9EB /* Alamofire.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = Alamofire.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		04D2C8171FB1FBDF0029A9EB /* SkyFloatingLabelTextField.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = SkyFloatingLabelTextField.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		04D2C8181FB204410029A9EB /* tongji_logo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = tongji_logo.png; sourceTree = "<group>"; };
-		453E2B1F1BF74F6C2ADD7387 /* Pods______.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = "Pods______.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		18617EC31FB2DAD8005D18BF /* 粉丝.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "粉丝.png"; sourceTree = "<group>"; };
+		18617EC41FB2DAD9005D18BF /* 目录.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "目录.png"; sourceTree = "<group>"; };
+		18617EC51FB2DAD9005D18BF /* 主页.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "主页.png"; sourceTree = "<group>"; };
+		18617EC61FB2DAD9005D18BF /* 头像.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "头像.png"; sourceTree = "<group>"; };
+		18617EC71FB2DAD9005D18BF /* 关注.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "关注.png"; sourceTree = "<group>"; };
+		18617EC81FB2DAD9005D18BF /* 设置.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "设置.png"; sourceTree = "<group>"; };
+		18617EC91FB2DADA005D18BF /* topBG.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = topBG.png; sourceTree = "<group>"; };
+		18617ED11FB2DAE6005D18BF /* sideMenuViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = sideMenuViewController.swift; sourceTree = "<group>"; };
+		453E2B1F1BF74F6C2ADD7387 /* Pods______.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods______.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		828572DDD0B0F12353B3F08D /* Pods-同济微课堂.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-同济微课堂.debug.xcconfig"; path = "Pods/Target Support Files/Pods-同济微课堂/Pods-同济微课堂.debug.xcconfig"; sourceTree = "<group>"; };
 		FCC4944B5AF498ABA3C50A77 /* Pods-同济微课堂.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-同济微课堂.release.xcconfig"; path = "Pods/Target Support Files/Pods-同济微课堂/Pods-同济微课堂.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -126,6 +142,7 @@
 		04BF88071F4EAFDF00EA75DD /* 同济微课堂 */ = {
 			isa = PBXGroup;
 			children = (
+				18617ED11FB2DAE6005D18BF /* sideMenuViewController.swift */,
 				04BF88081F4EAFDF00EA75DD /* AppDelegate.swift */,
 				04BF880A1F4EAFDF00EA75DD /* ViewController.swift */,
 				04BF883F1F4F195F00EA75DD /* listViewController.swift */,
@@ -162,6 +179,13 @@
 		04BF883C1F4EB01900EA75DD /* resources */ = {
 			isa = PBXGroup;
 			children = (
+				18617EC31FB2DAD8005D18BF /* 粉丝.png */,
+				18617EC71FB2DAD9005D18BF /* 关注.png */,
+				18617EC41FB2DAD9005D18BF /* 目录.png */,
+				18617EC81FB2DAD9005D18BF /* 设置.png */,
+				18617EC61FB2DAD9005D18BF /* 头像.png */,
+				18617EC51FB2DAD9005D18BF /* 主页.png */,
+				18617EC91FB2DADA005D18BF /* topBG.png */,
 				04D2C8181FB204410029A9EB /* tongji_logo.png */,
 				04D2C8101FB1FA8D0029A9EB /* background.jpg */,
 				0442D01D1F5052BF0071BF38 /* wild_plants_1-wallpaper-1440x900.jpg */,
@@ -298,11 +322,18 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				18617ECE1FB2DADA005D18BF /* 关注.png in Resources */,
+				18617ECF1FB2DADA005D18BF /* 设置.png in Resources */,
 				04BF88131F4EAFDF00EA75DD /* LaunchScreen.storyboard in Resources */,
+				18617ECC1FB2DADA005D18BF /* 主页.png in Resources */,
 				04D2C8191FB204420029A9EB /* tongji_logo.png in Resources */,
 				04D2C8111FB1FA8D0029A9EB /* background.jpg in Resources */,
+				18617ECB1FB2DADA005D18BF /* 目录.png in Resources */,
 				04BF88101F4EAFDF00EA75DD /* Assets.xcassets in Resources */,
+				18617ED01FB2DADA005D18BF /* topBG.png in Resources */,
 				04BF880E1F4EAFDF00EA75DD /* Main.storyboard in Resources */,
+				18617ECA1FB2DADA005D18BF /* 粉丝.png in Resources */,
+				18617ECD1FB2DADA005D18BF /* 头像.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -338,7 +369,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
 			showEnvVarsInLog = 0;
 		};
 		721CB97C5F4CF51FCFC9F3FC /* [CP] Copy Pods Resources */ = {
@@ -386,6 +417,7 @@
 				04BF880B1F4EAFDF00EA75DD /* ViewController.swift in Sources */,
 				04BF883E1F4F033E00EA75DD /* homeViewController.swift in Sources */,
 				04D2C8131FB1FB310029A9EB /* loginViewController.swift in Sources */,
+				18617ED21FB2DAE6005D18BF /* sideMenuViewController.swift in Sources */,
 				041376B81F4FF3E6008874EA /* SliderGalleryController.swift in Sources */,
 				04BF88401F4F195F00EA75DD /* listViewController.swift in Sources */,
 				04BF88091F4EAFDF00EA75DD /* AppDelegate.swift in Sources */,

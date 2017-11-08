@@ -1,0 +1,139 @@
+{
+  'version': 0,
+  'case-sensitive': 'false',
+  'roots': [
+    {
+      'type': 'directory',
+      'name': "/Users/yuannnn/Downloads/classdemo-ll 2/DerivedData/Build/Products/Debug-iphonesimulator/Alamofire/Alamofire.framework/Headers",
+      'contents': [
+        {
+          'type': 'file',
+          'name': "Alamofire-Swift.h",
+          'external-contents': "/Users/yuannnn/Downloads/classdemo-ll 2/DerivedData/Build/Products/Debug-iphonesimulator/Alamofire/Alamofire.framework/Headers/Alamofire-Swift.h"
+        },
+        {
+          'type': 'file',
+          'name': "Alamofire-umbrella.h",
+          'external-contents': "/Users/yuannnn/Downloads/classdemo-ll 2/Pods/Target Support Files/Alamofire/Alamofire-umbrella.h"
+        }
+      ]
+    },
+    {
+      'type': 'directory',
+      'name': "/Users/yuannnn/Downloads/classdemo-ll 2/DerivedData/Build/Products/Debug-iphonesimulator/Alamofire/Alamofire.framework/Modules",
+      'contents': [
+        {
+          'type': 'file',
+          'name': "module.modulemap",
+          'external-contents': "/Users/yuannnn/Downloads/classdemo-ll 2/DerivedData/Build/Intermediates/Pods.build/Debug-iphonesimulator/Alamofire.build/module.modulemap"
+        }
+      ]
+    },
+    {
+      'type': 'directory',
+      'name': "/Users/yuannnn/Downloads/classdemo-ll 2/DerivedData/Build/Products/Debug-iphonesimulator/MMDrawerController/MMDrawerController.framework/Headers",
+      'contents': [
+        {
+          'type': 'file',
+          'name': "MMDrawerBarButtonItem.h",
+          'external-contents': "/Users/yuannnn/Downloads/classdemo-ll 2/Pods/MMDrawerController/MMDrawerController/MMDrawerBarButtonItem.h"
+        },
+        {
+          'type': 'file',
+          'name': "MMDrawerController+Subclass.h",
+          'external-contents': "/Users/yuannnn/Downloads/classdemo-ll 2/Pods/MMDrawerController/MMDrawerController/MMDrawerController+Subclass.h"
+        },
+        {
+          'type': 'file',
+          'name': "MMDrawerController-Swift.h",
+          'external-contents': "/Users/yuannnn/Downloads/classdemo-ll 2/DerivedData/Build/Products/Debug-iphonesimulator/MMDrawerController/MMDrawerController.framework/Headers/MMDrawerController-Swift.h"
+        },
+        {
+          'type': 'file',
+          'name': "MMDrawerController-umbrella.h",
+          'external-contents': "/Users/yuannnn/Downloads/classdemo-ll 2/Pods/Target Support Files/MMDrawerController/MMDrawerController-umbrella.h"
+        },
+        {
+          'type': 'file',
+          'name': "MMDrawerController.h",
+          'external-contents': "/Users/yuannnn/Downloads/classdemo-ll 2/Pods/MMDrawerController/MMDrawerController/MMDrawerController.h"
+        },
+        {
+          'type': 'file',
+          'name': "MMDrawerVisualState.h",
+          'external-contents': "/Users/yuannnn/Downloads/classdemo-ll 2/Pods/MMDrawerController/MMDrawerController/MMDrawerVisualState.h"
+        },
+        {
+          'type': 'file',
+          'name': "UIViewController+MMDrawerController.h",
+          'external-contents': "/Users/yuannnn/Downloads/classdemo-ll 2/Pods/MMDrawerController/MMDrawerController/UIViewController+MMDrawerController.h"
+        }
+      ]
+    },
+    {
+      'type': 'directory',
+      'name': "/Users/yuannnn/Downloads/classdemo-ll 2/DerivedData/Build/Products/Debug-iphonesimulator/MMDrawerController/MMDrawerController.framework/Modules",
+      'contents': [
+        {
+          'type': 'file',
+          'name': "module.modulemap",
+          'external-contents': "/Users/yuannnn/Downloads/classdemo-ll 2/DerivedData/Build/Intermediates/Pods.build/Debug-iphonesimulator/MMDrawerController.build/module.modulemap"
+        }
+      ]
+    },
+    {
+      'type': 'directory',
+      'name': "/Users/yuannnn/Downloads/classdemo-ll 2/DerivedData/Build/Products/Debug-iphonesimulator/Pods______.framework/Headers",
+      'contents': [
+        {
+          'type': 'file',
+          'name': "Pods-\u540C\u6D4E\u5FAE\u8BFE\u5802-umbrella.h",
+          'external-contents': "/Users/yuannnn/Downloads/classdemo-ll 2/Pods/Target Support Files/Pods-\u540C\u6D4E\u5FAE\u8BFE\u5802/Pods-\u540C\u6D4E\u5FAE\u8BFE\u5802-umbrella.h"
+        },
+        {
+          'type': 'file',
+          'name': "Pods______-Swift.h",
+          'external-contents': "/Users/yuannnn/Downloads/classdemo-ll 2/DerivedData/Build/Products/Debug-iphonesimulator/Pods______.framework/Headers/Pods______-Swift.h"
+        }
+      ]
+    },
+    {
+      'type': 'directory',
+      'name': "/Users/yuannnn/Downloads/classdemo-ll 2/DerivedData/Build/Products/Debug-iphonesimulator/Pods______.framework/Modules",
+      'contents': [
+        {
+          'type': 'file',
+          'name': "module.modulemap",
+          'external-contents': "/Users/yuannnn/Downloads/classdemo-ll 2/DerivedData/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-\u540C\u6D4E\u5FAE\u8BFE\u5802.build/module.modulemap"
+        }
+      ]
+    },
+    {
+      'type': 'directory',
+      'name': "/Users/yuannnn/Downloads/classdemo-ll 2/DerivedData/Build/Products/Debug-iphonesimulator/SkyFloatingLabelTextField/SkyFloatingLabelTextField.framework/Headers",
+      'contents': [
+        {
+          'type': 'file',
+          'name': "SkyFloatingLabelTextField-Swift.h",
+          'external-contents': "/Users/yuannnn/Downloads/classdemo-ll 2/DerivedData/Build/Products/Debug-iphonesimulator/SkyFloatingLabelTextField/SkyFloatingLabelTextField.framework/Headers/SkyFloatingLabelTextField-Swift.h"
+        },
+        {
+          'type': 'file',
+          'name': "SkyFloatingLabelTextField-umbrella.h",
+          'external-contents': "/Users/yuannnn/Downloads/classdemo-ll 2/Pods/Target Support Files/SkyFloatingLabelTextField/SkyFloatingLabelTextField-umbrella.h"
+        }
+      ]
+    },
+    {
+      'type': 'directory',
+      'name': "/Users/yuannnn/Downloads/classdemo-ll 2/DerivedData/Build/Products/Debug-iphonesimulator/SkyFloatingLabelTextField/SkyFloatingLabelTextField.framework/Modules",
+      'contents': [
+        {
+          'type': 'file',
+          'name': "module.modulemap",
+          'external-contents': "/Users/yuannnn/Downloads/classdemo-ll 2/DerivedData/Build/Intermediates/Pods.build/Debug-iphonesimulator/SkyFloatingLabelTextField.build/module.modulemap"
+        }
+      ]
+    }
+  ]
+}

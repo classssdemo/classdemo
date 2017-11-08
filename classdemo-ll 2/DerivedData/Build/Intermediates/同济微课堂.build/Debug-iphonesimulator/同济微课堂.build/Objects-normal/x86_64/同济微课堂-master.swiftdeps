@@ -1,0 +1,12 @@
+version: "Apple Swift version 4.0 (swiftlang-900.0.65 clang-900.0.37)"
+options: "5ae1e168fca37eed28bb43bc86fd37a6"
+build_time: [1510131354, 399933000]
+inputs:
+  "/Users/yuannnn/Downloads/classdemo-ll 2/\u540C\u6D4E\u5FAE\u8BFE\u5802/ViewController.swift": [1510129834, 0]
+  "/Users/yuannnn/Downloads/classdemo-ll 2/\u540C\u6D4E\u5FAE\u8BFE\u5802/homeViewController.swift": [1510071890, 0]
+  "/Users/yuannnn/Downloads/classdemo-ll 2/\u540C\u6D4E\u5FAE\u8BFE\u5802/loginViewController.swift": [1510131354, 0]
+  "/Users/yuannnn/Downloads/classdemo-ll 2/\u540C\u6D4E\u5FAE\u8BFE\u5802/sideMenuViewController.swift": [1510071890, 0]
+  "/Users/yuannnn/Downloads/classdemo-ll 2/\u540C\u6D4E\u5FAE\u8BFE\u5802/SliderGalleryController.swift": [1510071890, 0]
+  "/Users/yuannnn/Downloads/classdemo-ll 2/\u540C\u6D4E\u5FAE\u8BFE\u5802/listViewController.swift": [1510071890, 0]
+  "/Users/yuannnn/Downloads/classdemo-ll 2/\u540C\u6D4E\u5FAE\u8BFE\u5802/myViewController.swift": [1510130702, 0]
+  "/Users/yuannnn/Downloads/classdemo-ll 2/\u540C\u6D4E\u5FAE\u8BFE\u5802/AppDelegate.swift": [1510071890, 0]

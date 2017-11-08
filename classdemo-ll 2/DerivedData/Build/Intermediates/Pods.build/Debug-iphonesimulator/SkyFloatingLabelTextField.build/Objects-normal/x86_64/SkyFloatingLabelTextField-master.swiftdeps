@@ -1,0 +1,7 @@
+version: "Apple Swift version 4.0 (swiftlang-900.0.65 clang-900.0.37)"
+options: "88d59f4f7caf57a03396e08e16df7262"
+build_time: [1510129639, 489950000]
+inputs:
+  "/Users/yuannnn/Downloads/classdemo-ll 2/Pods/SkyFloatingLabelTextField/Sources/SkyFloatingLabelTextField.swift": [1510071890, 0]
+  "/Users/yuannnn/Downloads/classdemo-ll 2/Pods/SkyFloatingLabelTextField/Sources/SkyFloatingLabelTextFieldWithIcon.swift": [1510071890, 0]
+  "/Users/yuannnn/Downloads/classdemo-ll 2/Pods/SkyFloatingLabelTextField/Sources/UITextField+fixCaretPosition.swift": [1510071890, 0]

@@ -1,0 +1,21 @@
+version: "Apple Swift version 4.0 (swiftlang-900.0.65 clang-900.0.37)"
+options: "e49bc389314f5ffe23dc00c6f6c4698f"
+build_time: [1510129653, 633264000]
+inputs:
+  "/Users/yuannnn/Downloads/classdemo-ll 2/Pods/Alamofire/Source/AFError.swift": [1510071890, 0]
+  "/Users/yuannnn/Downloads/classdemo-ll 2/Pods/Alamofire/Source/Alamofire.swift": [1510071890, 0]
+  "/Users/yuannnn/Downloads/classdemo-ll 2/Pods/Alamofire/Source/DispatchQueue+Alamofire.swift": [1510071890, 0]
+  "/Users/yuannnn/Downloads/classdemo-ll 2/Pods/Alamofire/Source/MultipartFormData.swift": [1510071890, 0]
+  "/Users/yuannnn/Downloads/classdemo-ll 2/Pods/Alamofire/Source/NetworkReachabilityManager.swift": [1510071890, 0]
+  "/Users/yuannnn/Downloads/classdemo-ll 2/Pods/Alamofire/Source/Notifications.swift": [1510071890, 0]
+  "/Users/yuannnn/Downloads/classdemo-ll 2/Pods/Alamofire/Source/ParameterEncoding.swift": [1510071890, 0]
+  "/Users/yuannnn/Downloads/classdemo-ll 2/Pods/Alamofire/Source/Request.swift": [1510071890, 0]
+  "/Users/yuannnn/Downloads/classdemo-ll 2/Pods/Alamofire/Source/Response.swift": [1510071890, 0]
+  "/Users/yuannnn/Downloads/classdemo-ll 2/Pods/Alamofire/Source/ResponseSerialization.swift": [1510071890, 0]
+  "/Users/yuannnn/Downloads/classdemo-ll 2/Pods/Alamofire/Source/Result.swift": [1510071890, 0]
+  "/Users/yuannnn/Downloads/classdemo-ll 2/Pods/Alamofire/Source/ServerTrustPolicy.swift": [1510071890, 0]
+  "/Users/yuannnn/Downloads/classdemo-ll 2/Pods/Alamofire/Source/SessionDelegate.swift": [1510071890, 0]
+  "/Users/yuannnn/Downloads/classdemo-ll 2/Pods/Alamofire/Source/SessionManager.swift": [1510071890, 0]
+  "/Users/yuannnn/Downloads/classdemo-ll 2/Pods/Alamofire/Source/TaskDelegate.swift": [1510071890, 0]
+  "/Users/yuannnn/Downloads/classdemo-ll 2/Pods/Alamofire/Source/Timeline.swift": [1510071890, 0]
+  "/Users/yuannnn/Downloads/classdemo-ll 2/Pods/Alamofire/Source/Validation.swift": [1510071890, 0]

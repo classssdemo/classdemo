@@ -15,9 +15,10 @@ class homeViewController: UIViewController, SliderGalleryControllerDelegate, UIT
     private let kScreenWidth = UIScreen.main.bounds.size.width
     private var table: UITableView!
     private var urls:Array<String> = []
+    private var sliderUrls:Array<String> = []
     
     private var coursesImages:Array<UIImage> = []
-    private var imagesCount = 0
+    private var bannerImages:Array<UIImage> = []
     
     private var cell = UITableViewCell()
 
@@ -28,9 +29,19 @@ class homeViewController: UIViewController, SliderGalleryControllerDelegate, UIT
     override func viewWillAppear(_ animated: Bool) {
         urls.append("http://123.207.13.131:1997/course_images/000001.jpg")
         urls.append("http://123.207.13.131:1997/course_images/000002.jpg")
+        urls.append("http://123.207.13.131:1997/course_images/000003.png")
+        
+        sliderUrls.append("http://123.207.13.131:1997/banner_images/banner_image0.png")
+        sliderUrls.append("http://123.207.13.131:1997/banner_images/banner_image1.jpg")
+        sliderUrls.append("http://123.207.13.131:1997/banner_images/banner_image2.jpg")
+        sliderUrls.append("http://123.207.13.131:1997/banner_images/banner_image3.jpg")
+        sliderUrls.append("http://123.207.13.131:1997/banner_images/banner_image4.jpg")
+        
+        getCoursesImages(URLS:urls, isCoursesImages: true)
+        getCoursesImages(URLS: sliderUrls, isCoursesImages: false)
+        
         initSlider()
         initTableView()
-        getCoursesImages()
     }
     
 
@@ -68,7 +79,7 @@ class homeViewController: UIViewController, SliderGalleryControllerDelegate, UIT
     
     //delegate protocal
     func galleryDataSource() -> [String] {
-        return ["000001.jpg", "eg1.png", "eg2.png", "000002.jpg", "eg1.png"]
+        return ["banner_image0.png", "banner_image1.jpg", "banner_image2.jpg", "banner_image3.jpg", "banner_image4.jpg"]
     }
     
     func galleryScrollerViewSize() -> CGSize {
@@ -89,7 +100,7 @@ class homeViewController: UIViewController, SliderGalleryControllerDelegate, UIT
     
     //tableView protocal
     func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
-        return imagesCount
+        return coursesImages.count
     }
     
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
@@ -126,6 +137,9 @@ class homeViewController: UIViewController, SliderGalleryControllerDelegate, UIT
         }else if indexPath.row == 1{
             mainTitle.text = "普通物理"
             subTitle.text = "物理学院"
+        }else{
+            mainTitle.text = "高等数学"
+            subTitle.text = "数学科学学院"
         }
         
         self.cell.addSubview(cellImg)
@@ -141,18 +155,21 @@ class homeViewController: UIViewController, SliderGalleryControllerDelegate, UIT
         return self.view.bounds.height*0.35
     }
     
-    func getCoursesImages(){
+    func getCoursesImages(URLS: Array<String>, isCoursesImages: Bool){
         //通过接口获取图片
         let queue = DispatchQueue(label: "fetchImage")
         queue.async {
-            for i in self.urls{
+            for i in URLS{
                 let url = URL(string: i)
                 do {
                     let data = try Data(contentsOf: url!)
-                    self.coursesImages.append(UIImage(data:data)!)
-                    DispatchQueue.main.async {
-                        self.imagesCount = self.coursesImages.count
-                        self.table.reloadData()
+                    if isCoursesImages{
+                        self.coursesImages.append(UIImage(data:data)!)
+                        DispatchQueue.main.async {
+                            self.table.reloadData()
+                        }
+                    }else{
+                        self.bannerImages.append(UIImage(data:data)!)
                     }
                 } catch let err as NSError {
                     print("err", err)

@@ -26,6 +26,11 @@
 		04D2C81D1FB2E49F0029A9EB /* eg1.png in Resources */ = {isa = PBXBuildFile; fileRef = 04D2C81C1FB2E49E0029A9EB /* eg1.png */; };
 		04D2C81F1FB2E5AC0029A9EB /* eg2.png in Resources */ = {isa = PBXBuildFile; fileRef = 04D2C81E1FB2E5AC0029A9EB /* eg2.png */; };
 		04D2C8211FB2F30D0029A9EB /* 000001.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 04D2C8201FB2F30D0029A9EB /* 000001.jpg */; };
+		04D2C8271FB309AD0029A9EB /* banner_image1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 04D2C8221FB309A90029A9EB /* banner_image1.jpg */; };
+		04D2C8281FB309AD0029A9EB /* banner_image3.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 04D2C8231FB309A90029A9EB /* banner_image3.jpg */; };
+		04D2C8291FB309AD0029A9EB /* banner_image0.png in Resources */ = {isa = PBXBuildFile; fileRef = 04D2C8241FB309AB0029A9EB /* banner_image0.png */; };
+		04D2C82A1FB309AD0029A9EB /* banner_image2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 04D2C8251FB309AC0029A9EB /* banner_image2.jpg */; };
+		04D2C82B1FB309AD0029A9EB /* banner_image4.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 04D2C8261FB309AC0029A9EB /* banner_image4.jpg */; };
 		8587F999ADC6BCDC6920C0B9 /* Pods______.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 453E2B1F1BF74F6C2ADD7387 /* Pods______.framework */; };
 /* End PBXBuildFile section */
 
@@ -76,6 +81,11 @@
 		04D2C81C1FB2E49E0029A9EB /* eg1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = eg1.png; sourceTree = "<group>"; };
 		04D2C81E1FB2E5AC0029A9EB /* eg2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = eg2.png; sourceTree = "<group>"; };
 		04D2C8201FB2F30D0029A9EB /* 000001.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 000001.jpg; sourceTree = "<group>"; };
+		04D2C8221FB309A90029A9EB /* banner_image1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = banner_image1.jpg; sourceTree = "<group>"; };
+		04D2C8231FB309A90029A9EB /* banner_image3.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = banner_image3.jpg; sourceTree = "<group>"; };
+		04D2C8241FB309AB0029A9EB /* banner_image0.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = banner_image0.png; sourceTree = "<group>"; };
+		04D2C8251FB309AC0029A9EB /* banner_image2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = banner_image2.jpg; sourceTree = "<group>"; };
+		04D2C8261FB309AC0029A9EB /* banner_image4.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = banner_image4.jpg; sourceTree = "<group>"; };
 		453E2B1F1BF74F6C2ADD7387 /* Pods______.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = "Pods______.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 		828572DDD0B0F12353B3F08D /* Pods-同济微课堂.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-同济微课堂.debug.xcconfig"; path = "Pods/Target Support Files/Pods-同济微课堂/Pods-同济微课堂.debug.xcconfig"; sourceTree = "<group>"; };
 		FCC4944B5AF498ABA3C50A77 /* Pods-同济微课堂.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-同济微课堂.release.xcconfig"; path = "Pods/Target Support Files/Pods-同济微课堂/Pods-同济微课堂.release.xcconfig"; sourceTree = "<group>"; };
@@ -174,6 +184,11 @@
 				04D2C8201FB2F30D0029A9EB /* 000001.jpg */,
 				04D2C8181FB204410029A9EB /* tongji_logo.png */,
 				04D2C8101FB1FA8D0029A9EB /* background.jpg */,
+				04D2C8241FB309AB0029A9EB /* banner_image0.png */,
+				04D2C8221FB309A90029A9EB /* banner_image1.jpg */,
+				04D2C8251FB309AC0029A9EB /* banner_image2.jpg */,
+				04D2C8231FB309A90029A9EB /* banner_image3.jpg */,
+				04D2C8261FB309AC0029A9EB /* banner_image4.jpg */,
 				04D2C81C1FB2E49E0029A9EB /* eg1.png */,
 				04D2C81E1FB2E5AC0029A9EB /* eg2.png */,
 				0442D01D1F5052BF0071BF38 /* wild_plants_1-wallpaper-1440x900.jpg */,
@@ -310,12 +325,17 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				04D2C82B1FB309AD0029A9EB /* banner_image4.jpg in Resources */,
 				04D2C81F1FB2E5AC0029A9EB /* eg2.png in Resources */,
 				04BF88131F4EAFDF00EA75DD /* LaunchScreen.storyboard in Resources */,
+				04D2C82A1FB309AD0029A9EB /* banner_image2.jpg in Resources */,
 				04D2C8191FB204420029A9EB /* tongji_logo.png in Resources */,
 				04D2C8211FB2F30D0029A9EB /* 000001.jpg in Resources */,
 				04D2C8111FB1FA8D0029A9EB /* background.jpg in Resources */,
+				04D2C8271FB309AD0029A9EB /* banner_image1.jpg in Resources */,
+				04D2C8281FB309AD0029A9EB /* banner_image3.jpg in Resources */,
 				04BF88101F4EAFDF00EA75DD /* Assets.xcassets in Resources */,
+				04D2C8291FB309AD0029A9EB /* banner_image0.png in Resources */,
 				04BF880E1F4EAFDF00EA75DD /* Main.storyboard in Resources */,
 				04D2C81B1FB2E1750029A9EB /* 000002.jpg in Resources */,
 				04D2C81D1FB2E49F0029A9EB /* eg1.png in Resources */,

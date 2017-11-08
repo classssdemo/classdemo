@@ -51,18 +51,19 @@ class listViewController: UIViewController, UITableViewDelegate, UITableViewData
         cellImg.layer.cornerRadius = 6
         cellImg.layer.masksToBounds = true
         
+        //mainTitle
+        let mainTitle = UILabel(frame: CGRect(x: cell.bounds.maxX/2, y: 40, width: (kScreenWidth-100), height: self.view.bounds.height*0.1))
+        mainTitle.textColor = UIColor.white
+        mainTitle.font = UIFont.systemFont(ofSize: 28, weight: .medium)
+        
         if indexPath.row%2==0{
-            cellImg.image = UIImage(named: "test")
+            cellImg.image = UIImage(named: "eg1.png")
+            mainTitle.text = "数学科学院"
         }
         else{
             cellImg.image = UIImage(named:"eg2.png")
+            mainTitle.text = "软件学院"
         }
-        
-        //mainTitle
-        let mainTitle = UILabel(frame: CGRect(x: self.view.center.x, y: 40, width: (kScreenWidth-100), height: self.view.bounds.height*0.1))
-        mainTitle.text = "软件学院"
-        mainTitle.textColor = UIColor.white
-        mainTitle.font = UIFont.systemFont(ofSize: 28, weight: .medium)
         
         cell.addSubview(cellImg)
         cell.addSubview(mainTitle)

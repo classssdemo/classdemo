@@ -23,15 +23,14 @@ class homeViewController: UIViewController, SliderGalleryControllerDelegate, UIT
 
     override func viewDidLoad() {
         self.view.backgroundColor = UIColor.white
-        getCoursesImages()
-        
-        urls.append("http://123.207.13.131:1997/course_images/000001.jpg")
-        urls.append("http://123.207.13.131:1997/course_images/000002.jpg")
     }
     
     override func viewWillAppear(_ animated: Bool) {
+        urls.append("http://123.207.13.131:1997/course_images/000001.jpg")
+        urls.append("http://123.207.13.131:1997/course_images/000002.jpg")
         initSlider()
         initTableView()
+        getCoursesImages()
     }
     
 
@@ -69,7 +68,7 @@ class homeViewController: UIViewController, SliderGalleryControllerDelegate, UIT
     
     //delegate protocal
     func galleryDataSource() -> [String] {
-        return ["test", "eg1.png", "eg2.png", "test", "test"]
+        return ["000001.jpg", "eg1.png", "eg2.png", "000002.jpg", "eg1.png"]
     }
     
     func galleryScrollerViewSize() -> CGSize {
@@ -110,7 +109,6 @@ class homeViewController: UIViewController, SliderGalleryControllerDelegate, UIT
         if !coursesImages.isEmpty{
             cellImg.image = coursesImages[indexPath.row]
         }
-//        cellImg.image = UIImage(named: "test")
         
         //mainTitle
         let mainTitle = UILabel(frame: CGRect(x: 30, y: cellImg.bounds.height, width: (self.kScreenWidth-100), height: self.view.bounds.height*0.1))
@@ -123,7 +121,7 @@ class homeViewController: UIViewController, SliderGalleryControllerDelegate, UIT
         subTitle.textColor = UIColor.darkGray
         
         if indexPath.row==0{
-            mainTitle.text = "高等数学"
+            mainTitle.text = "线性代数"
             subTitle.text = "数学科学学院"
         }else if indexPath.row == 1{
             mainTitle.text = "普通物理"

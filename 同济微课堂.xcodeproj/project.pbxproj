@@ -25,6 +25,7 @@
 		04D2C81B1FB2E1750029A9EB /* 000002.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 04D2C81A1FB2E1750029A9EB /* 000002.jpg */; };
 		04D2C81D1FB2E49F0029A9EB /* eg1.png in Resources */ = {isa = PBXBuildFile; fileRef = 04D2C81C1FB2E49E0029A9EB /* eg1.png */; };
 		04D2C81F1FB2E5AC0029A9EB /* eg2.png in Resources */ = {isa = PBXBuildFile; fileRef = 04D2C81E1FB2E5AC0029A9EB /* eg2.png */; };
+		04D2C8211FB2F30D0029A9EB /* 000001.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 04D2C8201FB2F30D0029A9EB /* 000001.jpg */; };
 		8587F999ADC6BCDC6920C0B9 /* Pods______.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 453E2B1F1BF74F6C2ADD7387 /* Pods______.framework */; };
 /* End PBXBuildFile section */
 
@@ -74,6 +75,7 @@
 		04D2C81A1FB2E1750029A9EB /* 000002.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 000002.jpg; sourceTree = "<group>"; };
 		04D2C81C1FB2E49E0029A9EB /* eg1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = eg1.png; sourceTree = "<group>"; };
 		04D2C81E1FB2E5AC0029A9EB /* eg2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = eg2.png; sourceTree = "<group>"; };
+		04D2C8201FB2F30D0029A9EB /* 000001.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 000001.jpg; sourceTree = "<group>"; };
 		453E2B1F1BF74F6C2ADD7387 /* Pods______.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = "Pods______.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 		828572DDD0B0F12353B3F08D /* Pods-同济微课堂.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-同济微课堂.debug.xcconfig"; path = "Pods/Target Support Files/Pods-同济微课堂/Pods-同济微课堂.debug.xcconfig"; sourceTree = "<group>"; };
 		FCC4944B5AF498ABA3C50A77 /* Pods-同济微课堂.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-同济微课堂.release.xcconfig"; path = "Pods/Target Support Files/Pods-同济微课堂/Pods-同济微课堂.release.xcconfig"; sourceTree = "<group>"; };
@@ -169,6 +171,7 @@
 			isa = PBXGroup;
 			children = (
 				04D2C81A1FB2E1750029A9EB /* 000002.jpg */,
+				04D2C8201FB2F30D0029A9EB /* 000001.jpg */,
 				04D2C8181FB204410029A9EB /* tongji_logo.png */,
 				04D2C8101FB1FA8D0029A9EB /* background.jpg */,
 				04D2C81C1FB2E49E0029A9EB /* eg1.png */,
@@ -310,6 +313,7 @@
 				04D2C81F1FB2E5AC0029A9EB /* eg2.png in Resources */,
 				04BF88131F4EAFDF00EA75DD /* LaunchScreen.storyboard in Resources */,
 				04D2C8191FB204420029A9EB /* tongji_logo.png in Resources */,
+				04D2C8211FB2F30D0029A9EB /* 000001.jpg in Resources */,
 				04D2C8111FB1FA8D0029A9EB /* background.jpg in Resources */,
 				04BF88101F4EAFDF00EA75DD /* Assets.xcassets in Resources */,
 				04BF880E1F4EAFDF00EA75DD /* Main.storyboard in Resources */,

@@ -4,5 +4,5 @@ use_frameworks!
 target '同济微课堂' do
 pod 'Alamofire', '~> 4.4'
 pod 'SkyFloatingLabelTextField', '~> 3.0'
-pod 'SlideMenuControllerSwift'
+pod 'MMDrawerController', '~> 0.5.7'
 end

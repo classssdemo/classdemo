@@ -7,25 +7,28 @@
 //
 
 import UIKit
-import SlideMenuControllerSwift
+import MMDrawerController
 
 @UIApplicationMain
 class AppDelegate: UIResponder, UIApplicationDelegate {
 
     var window: UIWindow?
 
-    static var slideMenuController: SlideMenuController?
+    static var centerContainer: MMDrawerController?
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplicationLaunchOptionsKey: Any]?) -> Bool {
         // Override point for customization after application launch.
         
-        let rootViewController = UIStoryboard.init(name: "Main", bundle: nil).instantiateViewController(withIdentifier: "root")
+        let centerViewController = UIStoryboard.init(name: "Main", bundle: nil).instantiateViewController(withIdentifier: "root")
+        let leftDrawerViewController = sideMenuViewController()
         
-        let nav = UINavigationController(rootViewController: rootViewController)
-        AppDelegate.slideMenuController = SlideMenuController(mainViewController: nav, leftMenuViewController: sideMenuViewController())
-        AppDelegate.slideMenuController?.delegate = rootViewController as? SlideMenuControllerDelegate
-        AppDelegate.slideMenuController?.automaticallyAdjustsScrollViewInsets = true
-        //self.window?.rootViewController = slideMenuController
+        let centerNav = UINavigationController(rootViewController: centerViewController)
+        
+        AppDelegate.centerContainer = MMDrawerController(center: centerNav, leftDrawerViewController: leftDrawerViewController)
+        
+        AppDelegate.centerContainer?.openDrawerGestureModeMask = .all
+        AppDelegate.centerContainer?.closeDrawerGestureModeMask = .all
+        
         
         self.window?.makeKeyAndVisible()
         

@@ -61,10 +61,10 @@
 		04BF88121F4EAFDF00EA75DD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		04BF88141F4EAFDF00EA75DD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		04BF88191F4EAFDF00EA75DD /* 同济微课堂Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "同济微课堂Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
-		04BF881D1F4EAFDF00EA75DD /* _____Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = _____Tests.swift; sourceTree = "<group>"; };
+		04BF881D1F4EAFDF00EA75DD /* _____Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "_____Tests.swift"; sourceTree = "<group>"; };
 		04BF881F1F4EAFDF00EA75DD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		04BF88241F4EAFDF00EA75DD /* 同济微课堂UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "同济微课堂UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
-		04BF88281F4EAFDF00EA75DD /* _____UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = _____UITests.swift; sourceTree = "<group>"; };
+		04BF88281F4EAFDF00EA75DD /* _____UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "_____UITests.swift"; sourceTree = "<group>"; };
 		04BF882A1F4EAFDF00EA75DD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		04BF88371F4EAFF900EA75DD /* 列表.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "列表.png"; sourceTree = "<group>"; };
 		04BF88391F4EAFF900EA75DD /* 我的.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "我的.png"; sourceTree = "<group>"; };
@@ -76,6 +76,7 @@
 		04D2C8161FB1FBDF0029A9EB /* Alamofire.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = Alamofire.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		04D2C8171FB1FBDF0029A9EB /* SkyFloatingLabelTextField.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = SkyFloatingLabelTextField.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		04D2C8181FB204410029A9EB /* tongji_logo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = tongji_logo.png; sourceTree = "<group>"; };
+		1828545E1FB2F2C50060033B /* brigde.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = brigde.h; sourceTree = "<group>"; };
 		18617EC31FB2DAD8005D18BF /* 粉丝.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "粉丝.png"; sourceTree = "<group>"; };
 		18617EC41FB2DAD9005D18BF /* 目录.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "目录.png"; sourceTree = "<group>"; };
 		18617EC51FB2DAD9005D18BF /* 主页.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "主页.png"; sourceTree = "<group>"; };
@@ -84,7 +85,7 @@
 		18617EC81FB2DAD9005D18BF /* 设置.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "设置.png"; sourceTree = "<group>"; };
 		18617EC91FB2DADA005D18BF /* topBG.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = topBG.png; sourceTree = "<group>"; };
 		18617ED11FB2DAE6005D18BF /* sideMenuViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = sideMenuViewController.swift; sourceTree = "<group>"; };
-		453E2B1F1BF74F6C2ADD7387 /* Pods______.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods______.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		453E2B1F1BF74F6C2ADD7387 /* Pods______.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = "Pods______.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 		828572DDD0B0F12353B3F08D /* Pods-同济微课堂.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-同济微课堂.debug.xcconfig"; path = "Pods/Target Support Files/Pods-同济微课堂/Pods-同济微课堂.debug.xcconfig"; sourceTree = "<group>"; };
 		FCC4944B5AF498ABA3C50A77 /* Pods-同济微课堂.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-同济微课堂.release.xcconfig"; path = "Pods/Target Support Files/Pods-同济微课堂/Pods-同济微课堂.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -154,6 +155,7 @@
 				04BF883C1F4EB01900EA75DD /* resources */,
 				04BF88141F4EAFDF00EA75DD /* Info.plist */,
 				04D2C8121FB1FB310029A9EB /* loginViewController.swift */,
+				1828545E1FB2F2C50060033B /* brigde.h */,
 			);
 			path = "同济微课堂";
 			sourceTree = "<group>";
@@ -593,6 +595,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "cocoa.-----";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				"SWIFT_OBJC_BRIDGING_HEADER[arch=*]" = "同济微课堂/brigde.h";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = 1;
 			};
@@ -609,6 +612,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "cocoa.-----";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				"SWIFT_OBJC_BRIDGING_HEADER[arch=*]" = "同济微课堂/brigde.h";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = 1;
 			};

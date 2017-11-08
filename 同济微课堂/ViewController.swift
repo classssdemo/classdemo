@@ -7,9 +7,8 @@
 //
 
 import UIKit
-import SlideMenuControllerSwift
 
-class ViewController: UITabBarController, SlideMenuControllerDelegate {
+class ViewController: UITabBarController {
     
     private let nameArr = ["主页","列表","我的"]
     private let picArr = ["home","列表","我的"]
@@ -33,7 +32,7 @@ class ViewController: UITabBarController, SlideMenuControllerDelegate {
     
     override func viewWillAppear(_ animated: Bool) {
         initSideMenu()
-        UIApplication.shared.keyWindow?.rootViewController = AppDelegate.slideMenuController
+        UIApplication.shared.keyWindow?.rootViewController = AppDelegate.centerContainer
     }
     
     func initTabBar(){
@@ -57,12 +56,10 @@ class ViewController: UITabBarController, SlideMenuControllerDelegate {
     func initSideMenu() {
         let leftBarItem = UIBarButtonItem(image: UIImage(named: "目录.png")!, style: UIBarButtonItemStyle.plain, target: self, action: #selector(openSideMenu))
         self.navigationItem.leftBarButtonItem = leftBarItem
-        self.slideMenuController()?.addLeftGestures()
-        self.slideMenuController()?.closeLeft()
     }
     
     @objc func openSideMenu() {
-        self.slideMenuController()?.openLeft()
+        AppDelegate.centerContainer?.toggle(.left, animated: true, completion: nil)
     }
 
 }

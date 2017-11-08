@@ -7,9 +7,8 @@
 //
 
 import UIKit
-import SlideMenuControllerSwift
 
-class sideMenuViewController: SlideMenuController, UITableViewDelegate, UITableViewDataSource {
+class sideMenuViewController: UIViewController, UITableViewDelegate, UITableViewDataSource {
     func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
         return titles.count
     }
